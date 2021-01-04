@@ -1,0 +1,249 @@
+header {
+    background: rgb(242, 243, 243);
+}
+
+.line {
+    padding: 2px;
+    background: rgb(15, 190, 242);
+    width: 0;
+}
+
+.skills {
+    width: 200px;
+    color: white;
+    background: rgb(47, 65, 82);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+    padding: 0.5rem;
+}
+
+.circulo {
+    width: 7rem;
+    height: 8rem;
+    background: linear-gradient(0deg, #fff 50%, rgba(255, 255, 255, .7) 50%);
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.js::before {
+    content: "JavaScript";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.js::after {
+    content: "80%";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(transparent 50%, white 50%);
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: scale(1.1);
+}
+
+.html::before {
+    content: "HTML5";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.html::after {
+    content: "90%";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(transparent 50%, white 50%);
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: scale(1.1);
+}
+
+.css::before {
+    content: "CSS3";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.css::after {
+    content: "70%";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(transparent 50%, white 50%);
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: scale(1.1);
+}
+
+.node::before {
+    content: "Node.js";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.node::after {
+    content: "50%";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(transparent 50%, white 50%);
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: scale(1.1);
+}
+
+.php::before {
+    content: "PHP7";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.php::after {
+    content: "50%";
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(transparent 50%, white 50%);
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    transform: scale(1.1);
+}
+
+.formacion {
+    background: rgb(47, 65, 82);
+}
+
+.forma {
+    background: rgb(15, 190, 242);
+    width: 200px;
+    color: white;
+    padding: 0.5rem;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li::before {
+    content: "";
+    background: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 1rem;
+}
+
+.años {
+    background: rgb(15, 190, 242);
+    width: 200px;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+footer {
+    background: #00171F;
+    padding: 0.1rem;
+}
